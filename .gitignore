@@ -15,3 +15,4 @@ node_modules
 
 # environment specific config files
 npm-debug.log
+package-lock.json
