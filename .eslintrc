@@ -1,0 +1,42 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "__SERVER__": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "classes": true
+  },
+  "rules": {
+    // 2 = error, 1 = warning, 0 = disabled
+
+    // Strict mode
+    "strict": [1, "never"],
+
+    // No alert (alert, confirm)
+    "no-alert": 0,
+
+    // Code style
+    "quotes": [1, "single"],
+
+    // Camel case
+    "camelcase": 0,
+
+    "no-underscore-dangle": 0,
+    "no-return-assign": 0,
+
+    // No unused variables
+    "no-unused-vars": [1, {"vars": "all", "args": "none"}]
+  }
+}

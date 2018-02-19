@@ -1,0 +1,6 @@
+{
+    "name": "Sites",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./Sites.js"
+}

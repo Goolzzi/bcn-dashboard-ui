@@ -1,0 +1,212 @@
+
+@import 'variables';
+
+.btn-base {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-noborder {
+  margin-left: 5px;
+  padding: 10px 0px;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-noborder-edit {
+  position: relative;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 35px;
+  display: inline-block;
+}
+
+.btn-noborder-policy {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  width: 60px;
+  height: 35px;
+  display: inline-block;
+  cursor: default;
+  font-size: 0;
+}
+
+.btn-noborder-download {
+  position: relative;
+  top: 0px;
+  left: 12px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 35px;
+  display: inline-block;
+}
+
+.btn-noborder-policywait {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: none;
+  background: none;
+  display: inline-block;
+}
+
+.btn-noborderspin {
+  margin-left: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: none;
+  background: none;
+}
+
+.btn-add {
+  width: 32px;
+  background: url("../images/plus_white-16x16.png") center no-repeat;
+  display: inline-block;
+}
+
+.btn-table-save {
+  width: 32px;
+  background: url("../images/checkmark-16x16.png") center no-repeat;
+  display: inline-block;
+}
+
+.btn-upload{
+ width: 32px;
+ margin-left: auto;
+ margin-right: auto;
+ background: url("../images/upload_white-16x16.png") center no-repeat;
+}
+
+.btn-genlink-image {
+  background: url("../images/generate_image_blue-16x16.png") center no-repeat;
+}
+.btn-failed-gen-image {
+  background: url("../images/generate_image_blue-16x16.png") center no-repeat;
+  opacity: 0.3;
+}
+
+.btn-download-image {
+  background: url("../images/download_blue-16x16.png") center no-repeat;
+}
+.btn-edit-image {
+  background: url("../images/edit_blue-16x16.png") center no-repeat;
+}
+
+.btn-active-image {
+  background: url("../images/switch-on-55x16.png") center no-repeat;
+}
+
+.btn-inactive-image {
+  background: url("../images/switch-off-55x16.png") center no-repeat;
+}
+
+.btn-monitor-image {
+  background: url("../images/watch-16x16.png") center no-repeat;
+}
+
+.btn-block-image {
+  background: url("../images/block-16x16.png") center no-repeat;
+}
+
+.btn-table-clear {
+  width: 32px;
+  background: url("../images/clear-16x16.png") center no-repeat;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #00A4E3;
+  border-color: #00A4E3;
+  color: #000000;
+
+  &:active, &:focus, &{
+    background-color: #00A4E3;
+    border-color: #00A4E3;
+  }
+}
+
+.btn-secondry {
+  background-color: #080e17;
+  border: 4px solid @light-blue;
+  color: @light-blue;
+  text-transform: uppercase;
+  box-shadow: none !important;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &.active {
+    background-color: @light-blue;
+    border-color: @light-blue;
+    color: #000;
+  }
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: #00A4E3;
+  color: #00A4E3;
+}
+/*
+.btn-primary:hover, .btn-primary:focus{
+  border-color: #0073ae;
+  background-color: #0073ae;
+}
+*/
+
+.btn-default:hover, .btn-default:focus{
+  background-color: transparent;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn-small {
+  font-size: 12px;
+  height: 32px;
+  padding: 4px 10px;
+}
+
+.download-spinner {
+  position: absolute;
+  left: 6px;
+  top: 8px;
+}
+
+.btn-has-fa-icon {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+
+  .fa {
+    font-size: 33px;
+    line-height: 40px;
+    margin-top: -7px;
+  }
+
+  &.btn-secondry {
+    -webkit-text-stroke: 5px #000;
+    &:hover {
+      -webkit-text-stroke: 5px #000;
+    }
+  }
+
+  &.btn-primary {
+    -webkit-text-stroke: 5px #00a4e3;
+
+    &:hover {
+      -webkit-text-stroke: 5px #286090;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+[{"time":1461860398000,"source":"192.168.0.103","site":"Castle Grayskull","query":"www.twitter.com","queryType":"PTR","actionTaken":"blacklist","response":"SERVFAIL","recordId":1461860398000}]

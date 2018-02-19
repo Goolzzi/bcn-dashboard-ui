@@ -1,0 +1,96 @@
+/**
+ * Sites Styles
+ * @author Jorge Barnaby
+ */
+
+
+ .Sites {
+     // Mixins
+     .positioned {
+         position: absolute;
+         top: 0;
+         left: 0;
+         height: 100%;
+         width: 100%;
+     }
+
+     .positioned();
+
+     z-index: @zindex-sites;
+
+     .content {
+         @info-width: 270px;
+         position: absolute;
+         top: 15px;
+         width: 100%;
+         height: ~"calc(100% - 150px)";
+
+         .heading {
+             width: @info-width;
+             position: absolute;
+             top: 0px;
+             left: 40px;
+         }
+
+         .data {
+             position: relative;
+             padding-left: 10%;
+             padding-right: 10%;
+             padding-top: 50px;
+             width: 100%;
+             height: 100%;
+             h3 {
+                 text-transform: uppercase;
+             }
+         }
+     }
+
+     .overlay {
+         background-color: #182A43;
+         opacity: 1;
+         .positioned();
+     }
+
+     .download-button{
+       padding: 0px 0px 0px 24.53px;
+     }
+
+     .download-genlink{
+       padding: 0px 0px 0px 13px;
+       line-height: 1;
+       font-size: 11px;
+       text-overflow: ellipsis;
+     }
+
+     .close-button {
+         background-image: url(/images/close-x.png);
+         background-repeat: no-repeat;
+         height: 20px;
+         width: 20px;
+         position: absolute;
+         right: 30px;
+         top: 30px;
+
+         &:hover {
+             cursor: pointer;
+         }
+
+         span {
+             .hide-text();
+         }
+     }
+
+     .input-container {
+        width: 320px;
+        margin: 0 auto 10px auto;
+    }
+
+    .form-control{
+        height: 40px;
+        border-radius: 2px;
+    }
+
+    .edit-text-field {
+    	padding: 0px 30% 0px 0px;
+    }
+ }

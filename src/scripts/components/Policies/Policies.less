@@ -1,0 +1,67 @@
+/**
+ * Policies Styles
+ * @author BlueCat
+ */
+
+.Policies {
+    height: 100%;
+
+
+    // Required as having tooltips on disabled buttons
+    // is not really supported due to changes in dom
+    // event triggers
+    .button-with-tooltip-container {
+        display: inline-block;
+    }
+
+    // Required as having tooltips on disabled buttons
+    // is not really supported due to changes in dom
+    // event triggers
+    .button-with-tooltip-container-disabled {
+        cursor: not-allowed;
+    }
+
+    .button-with-tooltip[disabled] {
+        pointer-events: none;
+    }
+
+    .add-button {
+        width: 32px;
+        height: 32px;
+        background-image: url(/images/add-plus.png);
+        background-repeat: no-repeat;
+        background-color: #00a4e3;
+        border-radius: 4px;
+        padding: 5px;
+        background-position: center center;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        margin-left: 9px;
+
+        span {
+            .hide-text();
+        }
+    }
+
+    th {
+        padding-top: 0;
+        line-height: 1;
+    }
+
+    .DataTable .table-body {
+
+        table {
+            table-layout: fixed;
+            td {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+    .fa {
+        color: @light-blue;
+        cursor: pointer;
+    }
+}

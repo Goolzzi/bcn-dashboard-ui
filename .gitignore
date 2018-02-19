@@ -1,0 +1,17 @@
+*.tmp
+*.DS_Store
+*.pyc
+
+# ignore vagrant stuff (but not the Vagrantfile)
+.vagrant
+
+# dist files / folders
+dist
+
+# local 3rd party dependencies
+bower_components
+coverage
+node_modules
+
+# environment specific config files
+npm-debug.log

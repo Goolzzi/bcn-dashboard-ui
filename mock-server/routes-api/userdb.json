@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "username":  "Deanna Troi",
+            "email": "betazoidsunite@counselling.xyz.com",
+            "password": "happinessandjoy",
+            "role": "Analyst"
+        },
+        {
+            "username":  "Data",
+            "email": "spotsdad@android4life.xyz.com",
+            "password": "1010101010",
+            "role": "Analyst"
+        },
+        {
+            "username":  "Geordie LaForge",
+            "email": "engineering@xyz.com",
+            "password": "prettyC0lors",
+            "role": "Analyst"
+        },
+        {
+            "username":  "William Riker",
+            "email": "will.riker@number1.xyz.com",
+            "password": "ShieldsUp",
+            "role": "Administrator"
+        },
+        {
+            "username":  "Jean-Luc Picard",
+            "email": "jpicard@xyz.com",
+            "password": "Make1tS0",
+            "role": "Administrator"
+        }
+    ]
+}

@@ -1,0 +1,846 @@
+{
+    "sites": [
+        {
+            "location": {
+                "lat": 43.773677,
+                "lng": -79.383802
+            },
+            "siteId": "fb583fed-e0c7-4e0a-9397-6ae33c39190a",
+            "dnsSettings": {
+                "source": "SITE",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "1.2.3.4"
+                        }
+                    ]
+                }
+            },
+            "siteName": "aaaaa"
+        },
+        {
+            "location": {
+                "lat": 43.653226,
+                "lng": -79.283184
+            },
+            "siteId": "c133ef51-3bde-46a7-9723-847ebf4b4d4b",
+            "siteName": "siteIdv6.microsoft.com",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "location": {
+                "lat": 49.282729,
+                "lng": -123.120738
+            },
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteId": "86bd0f84-ea86-4c2c-8eec-c7651d5c14f8",
+            "siteName": "daisy.ubuntu.com"
+        },
+        {
+            "location": {
+                "lat": 40.78306,
+                "lng": -73.971249
+            },
+            "siteId": "3f85dca7-810f-4260-9716-971b0c85392d",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "mail.google.com"
+        },
+        {
+            "location": {
+                "lat": 40.678178,
+                "lng": -73.944158
+            },
+            "siteId": "2d5d4e8c-1f97-491f-8093-2e193187191a",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "n.shifen.com"
+        },
+        {
+            "location": {
+                "lat": 41.878114,
+                "lng": -87.629798
+            },
+            "siteId": "c19c1086-0d78-48cb-bf9d-22c995a6a075",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "pokerstats.com"
+        },
+        {
+            "location": {
+                "lat": 34.147785,
+                "lng": -118.144516
+            },
+            "siteId": "5a72308a-ccf1-4e49-baf2-c7f9f37164f2",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "g.akamai.net"
+        },
+        {
+            "location": {
+                "lat": 33.91918,
+                "lng": -118.416465
+            },
+            "siteId": "0f915a3c-e459-40c8-80cd-6bf53502a19d",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "api.status.io"
+        },
+        {
+            "location": {
+                "lat": 25.76168,
+                "lng": -80.19179
+            },
+            "siteId": "97c5b16b-b74b-448c-9b5d-d61eef6aefef",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "helpcenter.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 32.318231,
+                "lng": -86.902298
+            },
+            "siteId": "950c1a2b-adf4-4803-929a-e6930f1c0562",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "centre-124.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 30.267153,
+                "lng": -97.743061
+            },
+            "siteId": "882fdd75-7fa3-4e9d-b17f-cdc176e2b22f",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "yahoomail.com"
+        },
+        {
+            "location": {
+                "lat": 30.284301,
+                "lng": -97.744146
+            },
+            "siteId": "0c28b8a8-161e-45b3-8a8e-cc1d8fad37eb",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "ithelpdesk.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 40.4419,
+                "lng": -79.992178
+            },
+            "siteId": "88482437-1c2c-4b53-8db8-d8f1ed050a68",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "diy.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 44.954946,
+                "lng": -93.090841
+            },
+            "siteId": "fa3d4846-e81e-435c-96ba-3f90bf03fd63",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "customer-portal.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 34.196973,
+                "lng": -118.314716
+            },
+            "siteId": "51c33529-9639-4b1e-acf0-bdc113f38773",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "site1.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 34.139823,
+                "lng": -118.137616
+            },
+            "siteId": "6257b274-6c9c-482d-a2f9-6f881f186ee4",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "site2.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 30.34804,
+                "lng": -97.66845
+            },
+            "siteId": "d6cce595-a94f-4b43-9cc5-7fe54b9b3b17",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "site3.homedepot.com"
+        },
+        {
+            "location": {
+                "lat": 32.784803,
+                "lng": -96.712807
+            },
+            "siteId": "a93d9b82-ee38-4197-9d79-53d2fff52a3b",
+            "dnsSettings": {
+                "source": "GLOBAL",
+                "settings": {
+                    "servers": [
+                        {
+                            "ipAddress": "8.8.8.8"
+                        }
+                    ]
+                }
+            },
+            "siteName": "site4.homedepot.com"
+        },
+{
+    "siteName": "Lislesite1",
+    "location": {
+      "lng": "-88.07478750000001",
+      "lat": "41.801141"
+    },
+    "siteId": "189a8d24-ab14-4f76-91c6-838d81c766d5",
+    "image": {
+      "status": "NOT_FOUND"
+    },
+    "dnsSettings": {
+      "settings": {
+        "servers": [
+          {
+            "ipAddress": "8.8.8.8"
+          }
+        ]
+      },
+      "source": "FACTORY"
+    }
+  },
+  {
+    "siteName": "BuffaloGroveSite1",
+    "location": {
+      "lng": "-87.96313079999999",
+      "lat": "42.1662831"
+    },
+    "siteId": "22279f90-c6f7-4cb3-872e-ad1a6c921075",
+    "image": {
+      "status": "NOT_FOUND"
+    },
+    "dnsSettings": {
+      "settings": {
+        "servers": [
+          {
+            "ipAddress": "8.8.8.8"
+          }
+        ]
+      },
+      "source": "FACTORY"
+    }
+  },
+  {
+    "siteName": "Wheaton",
+    "location": {
+      "lng": "-88.10701269999998",
+      "lat": "41.8661403"
+    },
+    "siteId": "4312aaa7-19a6-42ea-8d8f-414350af1416",
+    "image": {
+      "status": "NOT_FOUND"
+    },
+    "dnsSettings": {
+      "settings": {
+        "servers": [
+          {
+            "ipAddress": "8.8.8.8"
+          }
+        ]
+      },
+      "source": "FACTORY"
+    }
+  },
+  {
+    "siteName": "BuffaloGroveSite2",
+    "location": {
+      "lng": "-87.96313079999999",
+      "lat": "42.1662831"
+    },
+    "siteId": "6c04a0b9-1b71-450b-a065-b2b32f30400e",
+    "image": {
+      "status": "NOT_FOUND"
+    },
+    "dnsSettings": {
+      "settings": {
+        "servers": [
+          {
+            "ipAddress": "8.8.8.8"
+          }
+        ]
+      },
+      "source": "FACTORY"
+    }
+  }
+    ],
+    "policies": [
+	{
+	    "policyId":"ac2aa100-f3cd-4520-aac7-b2d2657d5bba",
+	    "name":"TreeHuggingPolicy",
+            "action":{"type":"monitor"},
+            "description":"Monitor hugging of all trees",
+	    "appliedTo": [
+            	{"type": "siteId", "name": "fb583fed-e0c7-4e0a-9397-6ae33c39190a"},
+            	{"type": "siteId", "name": "a93d9b82-ee38-4197-9d79-53d2fff52a3b"},
+            	{"type": "siteGroup", "name": "455058a9-9061-4db9-844a-4db9f8a8a89f"}
+            	],
+        "active": true,
+        "domain" : [
+          {
+            "type":"list",
+            "name":"128a8d24-ab14-4f76-91c6-838d81c766d5"
+          },{
+            "type":"list",
+            "name":"268a8d24-ab14-4f76-91c6-838d81c767d5"
+          }
+        ]
+        },
+	      {
+	    "policyId":"06775fe7-019b-48a7-9ec6-d24ad12235d2",
+	    "name":"CatHuggingPolicy",
+	    "action":{"type":"monitor"},
+	    "appliedTo": [
+            	{"type": "siteId", "name": "fb583fed-e0c7-4e0a-9397-6ae33c39190a"},
+            	{"type": "siteGroup", "name": "455058a9-9061-4db9-844a-4db9f8a8a89f"},
+            	{"type": "siteGroup", "name": "1fe3159f-3268-4c8b-ab79-73f39662ef0e"},
+            	{"type": "siteGroup", "name": "0f0f7fb2-27df-4df1-9121-3a4d7b3efa3c"}
+   	    ],
+        "domain" : [
+          {
+            "type":"list",
+            "name":"17ef77c3-45e1-4d79-a067-8f629c76b7ee"
+          }
+        ],
+        "active": true,
+	    "description":"Hugging a cat is encouraged"
+        },
+	{
+	    "policyId" : "7618d841-86b2-4163-ad30-b6a83be3bd69",
+	    "name":"DogHuggingPolicy",
+	    "action":{"type":"block"},
+	    "description":"Talk to the cats",
+	    "appliedTo": [
+            	{"type": "siteGroup", "name": "455058a9-9061-4db9-844a-4db9f8a8a89f"},
+            	{"type": "siteGroup", "name": "95f75ebf-34bc-459f-9379-d38aa745a61f"},
+            	{"type": "siteGroup", "name": "a4faf8cc-4fd9-4059-b6a2-2e52bc09dc6c"},
+            	{"type": "siteGroup", "name": "df7c0ce2-c91b-46b4-b5b9-05bff38a004c"}
+   	    ],
+        "domain" : [
+          {
+            "type":"list",
+            "name":"17ef77c3-45e1-4d79-a067-8f629c76b7ee"
+          }
+        ],
+   	    "active": true
+	},
+		{
+	    "policyId": "b91a243a-e579-46ff-ace6-a4612c56e6d2",
+	    "name":"DogChocolateFeedingPolicy",
+	    "action":{"type":"block"},
+	    "description":"Talk to the cats",
+	    "appliedTo": [
+            	{"type": "siteGroup", "name": "455058a9-9061-4db9-844a-4db9f8a8a89f"},
+            	{"type": "siteGroup", "name": "df7c0ce2-c91b-46b4-b5b9-05bff38a004c"}
+   	    ],
+        "domain" : [
+          {
+            "type":"list",
+            "name":"268a8d24-ab14-4f76-91c6-838d81c767d5"
+          },{
+            "type":"list",
+            "name":"5a71edcd-82b8-4299-8cf4-0826dbdbbf14"
+          }
+        ],
+   	    "active": false
+	  },
+		{
+	    "policyId": "9edd305c-2b2c-42d1-8d99-9838f9b4bcdd",
+	    "name":"DogBaconFeedingPolicy",
+	    "action":{"type":"allow"},
+	    "description":"Talk to the pigs",
+	    "appliedTo": [
+            	{"type": "siteGroup", "name": "455058a9-9061-4db9-844a-4db9f8a8a89f"},
+            	{"type": "siteGroup", "name": "df7c0ce2-c91b-46b4-b5b9-05bff38a004c"}
+   	    ],
+        "domain" : [
+          {
+            "type":"list",
+            "name":"268a8d24-ab14-4f76-91c6-838d81c767d5"
+          },{
+            "type":"list",
+            "name":"5a71edcd-82b8-4299-8cf4-0826dbdbbf14"
+          }
+        ],
+   	    "active": false
+	  }
+    ],
+    "siteGroups": [
+        {
+            "name": "a",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "fb583fed-e0c7-4e0a-9397-6ae33c39190a"
+            ],
+            "siteGroupId": "455058a9-9061-4db9-844a-4db9f8a8a89f"
+        },
+        {
+            "name": "A",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "fb583fed-e0c7-4e0a-9397-6ae33c39190a",
+                "a93d9b82-ee38-4197-9d79-53d2fff52a3b"
+            ],
+            "siteGroupId": "58e8e730-7633-4d32-aea7-7b89976a4a94"
+        },
+        {
+            "name": "b",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "a4faf8cc-4fd9-4059-b6a2-2e52bc09dc6c"
+        },
+        {
+            "name": "B",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "59e40d1c-7737-43d9-8c38-8b2186b139b4"
+        },
+        {
+            "name": "testSiteGroup1",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "1fe3159f-3268-4c8b-ab79-73f39662ef0e"
+        },
+        {
+            "name": "testSiteGroup10",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "fcb60783-5885-4327-87ab-de9be643c6c3"
+        },
+        {
+            "name": "testSiteGroup2",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "df7c0ce2-c91b-46b4-b5b9-05bff38a004c"
+        },
+        {
+            "name": "testSiteGroup8",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4","6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "fcb91f8c-101f-474e-a39e-21c7a16f948a"
+        },
+        {
+            "name": "testSiteGroup9",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "95f75ebf-34bc-459f-9379-d38aa745a61f"
+        },
+        {
+            "name": "test2SiteGroup",
+            "description": "my test siteGroup",
+            "siteIds": [
+                "6257b274-6c9c-482d-a2f9-6f881f186ee4"
+            ],
+            "siteGroupId": "854f6357-e75f-488e-8754-0a433a714566"
+        },
+        {
+            "name": "ChicagoSites",
+            "description": "This is all the stores in the Chicago area, including BUffalo Grove, Wheaton, Lisle, Lincolnshire, Itasca and Elmhurst suburbs",
+            "siteIds": [
+                "189a8d24-ab14-4f76-91c6-838d81c766d5",
+		"22279f90-c6f7-4cb3-872e-ad1a6c921075",
+		"4312aaa7-19a6-42ea-8d8f-414350af1416",
+		"6c04a0b9-1b71-450b-a065-b2b32f30400e"
+            ],
+            "siteGroupId": "0f0f7fb2-27df-4df1-9121-3a4d7b3efa3c"
+        }
+    ],
+    "domainNamePatterns" :[
+      {
+        "id": "128a8d24-ab14-4f76-91c6-838d81c766d5",
+        "name": "List1",
+        "description": "Description 1",
+        "version": "9c40a7ba-dfe4-4c57-ae5e-2bc7b593c2bf",
+        "domainCount": 123
+      },
+      {
+        "id": "268a8d24-ab14-4f76-91c6-838d81c767d5",
+        "name": "List2",
+        "description": "Description 2",
+     	"version": "2e64b073-b626-4a26-be7e-942d2d20a5b7",
+        "domainCount": 1102
+      },
+      {
+        "id": "17ef77c3-45e1-4d79-a067-8f629c76b7ee",
+        "name": "List3",
+        "description": "Description 3",
+     	"version": "31e4b639-f817-495a-98a0-c35371e01d28",
+        "domainCount": 100900
+      },
+      {
+        "id": "c69aaa0c-6923-4e56-b4a7-107104f8e845",
+        "name": "List4",
+        "description": "Description 4",
+     	"version": "4f137d53-e096-4aae-91f0-ff0b473743e6",
+        "domainCount": 5450
+      },
+      {
+        "id": "33bf18ee-ebf2-4d4a-b336-38196bae11be",
+        "name": "List5",
+        "description": "Description 5",
+     	"version": "85c120a0-5652-44f8-b3b4-eadc3eb2acd9",
+        "domainCount": 3940
+      }
+    ],
+    "dnsQueries": [
+        {
+            "time": 1461160396000,
+            "site": "Toronto",
+            "source": "192.168.0.101",
+            "query": "www.facebook.com",
+            "queryType": "A",
+            "actionTaken": "query-response",
+            "response": "NOERROR",
+            "recordId": "1"
+        },
+        {
+            "time": 1461860397000,
+            "source": "192.168.0.102",
+            "site": "BlueCat Chicago",
+            "query": "www.google.com",
+            "queryType": "A",
+            "actionTaken": "monitor",
+            "response": "FORMERR",
+            "recordId": "2"
+        },
+        {
+            "time": 1461860398000,
+            "source": "192.168.0.103",
+            "site": "Castle Grayskull",
+            "query": "www.twitter.com",
+            "queryType": "PTR",
+            "actionTaken": "blacklist",
+            "response": "SERVFAIL",
+            "recordId": "3"
+        },
+        {
+            "time": 1461860399000,
+            "source": "192.168.0.104",
+            "site": "Eternia",
+            "query": "www.youtube.com",
+            "queryType": "SRV",
+            "actionTaken": "whitelist",
+            "response": "NXDOMAIN",
+            "recordId": "4"
+        },
+        {
+            "time": 1461860400000,
+            "source": "192.168.0.105",
+            "site": "Eternos",
+            "query": "www.wikipedia.org",
+            "queryType": "TXT",
+            "actionTaken": "query-response",
+            "response": "NOTIMP",
+            "recordId": "5"
+        },
+        {
+            "time": 1461860401000,
+            "source": "192.168.0.106",
+            "site": "Snake Mountain",
+            "query": "www.baidu.com",
+            "queryType": "AAAA",
+            "actionTaken": "monitor",
+            "response": "REFUSED",
+            "recordId": "6"
+        },
+        {
+            "time": 1461860402000,
+            "source": "192.168.0.107",
+            "site": "Grayskull Tower",
+            "query": "www.yahoo.com",
+            "queryType": "A",
+            "actionTaken": "blacklist",
+            "response": "YXDOMAIN",
+            "recordId": "7"
+        },
+        {
+            "time": 1461860403000,
+            "source": "192.168.0.108",
+            "site": "Viper Tower",
+            "query": "www.qq.com",
+            "queryType": "PTR",
+            "actionTaken": "whitelist",
+            "response": "YXRRSET",
+            "recordId": "8"
+        },
+        {
+            "time": 1461860404000,
+            "source": "192.168.0.109",
+            "site": "Eternia Tower",
+            "query": "www.live.com",
+            "queryType": "SRV",
+            "actionTaken": "query-response",
+            "response": "NXRRSET",
+            "recordId": "9"
+        },
+        {
+            "time": 1461860405000,
+            "source": "192.168.0.110",
+            "site": "Widget Fortress",
+            "query": "www.taobao.com",
+            "queryType": "TXT",
+            "actionTaken": "monitor",
+            "response": "NOTAUTH",
+            "recordId": "10"
+        },
+        {
+            "time": 1461860406000,
+            "source": "pool24.bluecatnetworks.corp",
+            "site": "Temple of Shokoti",
+            "query": "www.linkedin.com",
+            "queryType": "AAAA",
+            "actionTaken": "blacklist",
+            "response": "NOTAUTH",
+            "recordId": "11"
+        },
+        {
+            "time": 1461860407000,
+            "source": "pool48.bluecatnetworks.corp",
+            "site": "Temple of the Sun",
+            "query": "www.instagram.com",
+            "queryType": "A",
+            "actionTaken": "whitelist",
+            "response": "NOTZONE",
+            "recordId": "12"
+        },
+        {
+            "time": 1461860408000,
+            "source": "QA-gvaksman.bluecatnetworks.corp",
+            "site": "Temple of the Cat",
+            "query": "www.bing.com",
+            "queryType": "PTR",
+            "actionTaken": "query-response",
+            "response": "BADVERS",
+            "recordId": "13"
+        },
+        {
+            "time": 1461860409000,
+            "source": "t1700cskelton1.bluecatnetworks.corp",
+            "site": "Castle Star",
+            "query": "www.netflix.com",
+            "queryType": "SRV",
+            "actionTaken": "monitor",
+            "response": "BADSIG",
+            "recordId": "14"
+        },
+        {
+            "time": 1461860410000,
+            "source": "192.168.0.101",
+            "site": "Eternian Weather Station",
+            "query": "www.tumblr.com",
+            "queryType": "TXT",
+            "actionTaken": "blacklist",
+            "response": "BADKEY",
+            "recordId": "15"
+        },
+        {
+            "time": 1461860411000,
+            "source": "192.168.0.102",
+            "site": "Station Sata",
+            "query": "www.wordpress.com",
+            "queryType": "AAAA",
+            "actionTaken": "whitelist",
+            "response": "BADTIME",
+            "recordId": "16"
+        },
+        {
+            "time": 1461860412000,
+            "source": "192.168.0.103",
+            "site": "Avion",
+            "query": "www.paypal.com",
+            "queryType": "A",
+            "actionTaken": "query-response",
+            "response": "BADMODE",
+            "recordId": "17"
+        },
+        {
+            "time": 1461860413000,
+            "source": "192.168.0.104",
+            "site": "Targa",
+            "query": "www.facebook.com",
+            "queryType": "PTR",
+            "actionTaken": "monitor",
+            "response": "BADNAME",
+            "recordId": "18"
+        },
+        {
+            "time": 1461860414000,
+            "source": "192.168.0.105",
+            "site": "BlueCat Toronto",
+            "query": "www.google.com",
+            "queryType": "SRV",
+            "actionTaken": "blacklist",
+            "response": "BADALG",
+            "recordId": "19"
+        },
+        {
+            "time": 1461860415000,
+            "source": "192.168.0.106",
+            "site": "BlueCat Chicago",
+            "query": "www.twitter.com",
+            "queryType": "TXT",
+            "actionTaken": "whitelist",
+            "response": "BADTRUNC",
+            "recordId": "20"
+        }
+    ]
+}

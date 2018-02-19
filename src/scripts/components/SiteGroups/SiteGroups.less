@@ -1,0 +1,277 @@
+/**
+ * SiteGroups Styles
+ * @author Neumarkets
+ */
+
+.SiteGroups {
+    height: 100%;
+
+
+    // Required as having tooltips on disabled buttons
+    // is not really supported due to changes in dom
+    // event triggers
+    .button-with-tooltip-container {
+        display: inline-block;
+    }
+
+    // Required as having tooltips on disabled buttons
+    // is not really supported due to changes in dom
+    // event triggers
+    .button-with-tooltip-container-disabled {
+        cursor: not-allowed;
+    }
+
+    .button-with-tooltip[disabled] {
+        pointer-events: none;
+    }
+
+    .add-button {
+        width: 32px;
+        height: 32px;
+        background-image: url(/images/add-plus.png);
+        background-repeat: no-repeat;
+        background-color: #00a4e3;
+        border-radius: 4px;
+        padding: 5px;
+        background-position: center center;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        margin-left: 9px;
+
+        span {
+            .hide-text();
+        }
+    }
+
+    .datatable-container {
+        height: ~"calc(100% - 74px)";
+    }
+
+    .DataTable {
+        table tr th {
+            padding-top: 0;
+            line-height: 1;
+            border-bottom-color: #707889;
+            height: 45px;
+        }
+
+        .table-body {
+            table {
+                table-layout: fixed;
+                td {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+
+    .fa {
+        color: @light-blue;
+        cursor: pointer;
+    }
+}
+
+.SiteGroupForm {
+
+    .info-text {
+        font-size: 20px;
+        color: #838b99;
+        line-height: 1;
+
+        label {
+            display: block;
+            font-size: 9px;
+        }
+
+        span {
+            display: block;
+        }
+        .white {
+            color: @white;
+        }
+    }
+
+    .group_sites {
+        font-size: 17px;
+        height: 250px;
+        overflow-y: auto;
+        margin: 0 15px 40px;
+
+        .col-md-4 {
+            padding: 5px 0 5px;
+
+            .icon_wrap {
+                line-height: 27px;
+                float: left;
+                width: 15%;
+                padding-left: 13px;
+            }
+
+            .name_wrap {
+                float:left;
+                width:85%;
+
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                word-break: break-all;
+                height: 24px;
+            }
+
+            .fa {
+                font-size: 21px;
+                color: @light-blue;
+                line-height: 24px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+
+            &.highlight {
+                // background-color: @light-blue;
+                animation: highlight-fade 2s ease-out;
+                .fa {
+                    color: @white;
+                }
+            }
+
+            @keyframes highlight-fade {
+              0% {
+                background: @light-blue;
+              }
+            }
+        }
+
+        .empty {
+            color: #707889;
+            font-size: 15px;
+            text-align: center;
+            line-height: 20px;
+            margin-top: 40px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #707889;
+            border-radius: 8px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #afd3e6;
+        }
+        &::-webkit-scrollbar {
+            width: .7em;
+        }
+
+    }
+
+
+    .autosuggest-container {
+        position: relative;
+
+        input {
+            border: 1px solid @light-blue;
+        }
+
+        .react-autosuggest__suggestions-container {
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+
+    .react-autosuggest__suggestions-list {
+        list-style-type: none;
+        border: 1px solid @light-blue;
+        border-radius: 3px;
+        background-color: #081e2e;
+        overflow: hidden;
+        padding: 10px 0;
+
+        &.no-suggestions {
+            border-color: #ff7800;
+            text-transform: uppercase;
+            font-size: 10px;
+            padding: 5px 0;
+        }
+
+        &.invalid-suggestions {
+            border-color: #ff7800;
+            text-transform: uppercase;
+            font-size: 10px;
+            padding: 5px 0;
+        }
+
+        li {
+            padding: 5px 10px;
+
+            .site_command {
+                .name {
+                    color: @light-blue;
+                    &.disabled {
+                        color: #65676b;
+                    }
+                }
+
+                .command {
+                    color: @white;
+                }
+
+            }
+            .description {
+                color: #65676b;
+                float: right;
+            }
+
+            &.react-autosuggest__suggestion--focused {
+                background-color: @light-blue;
+                .site_command .name {
+                    color: #fff;
+                }
+                .disabled * {
+                    color: @white;
+                }
+            }
+
+            .disabled {
+                .name, .description {
+                    color: #aaa;
+                }
+            }
+
+
+        }
+    }
+
+    .save-btn {
+        background-color: @black;
+        border: 4px solid @light-blue;
+        color: @light-blue;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: none;
+
+        &.active {
+            background-color: @light-blue;
+            color: @black;
+        }
+    }
+
+    .delete-btn {
+        left: 50px;
+        position: fixed;
+        font-size: 18px;
+        bottom: 7%;
+        cursor: pointer;
+    }
+
+
+    .SlideInOnShow {
+        transition: opacity 250ms ease-in;
+        opacity: 0.01;
+
+        &.show {
+          opacity: 1;
+        }
+
+    }
+}

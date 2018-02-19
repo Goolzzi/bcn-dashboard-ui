@@ -1,0 +1,103 @@
+/**
+ * Header Styles
+ * @author Alexander Luksidadi
+ */
+
+.Header-dashboard {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: @zindex-header-dashboard;
+
+    // xs screen
+    @media (max-width: @screen-xs-max) {
+    }
+    // sm screen
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    }
+    // md screen
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    }
+    // lg screen (default)
+    @media (min-width: @screen-lg-min) {
+    }
+
+    .MainNav {
+        position: absolute;
+        right: 20px;
+        top: 40px;
+
+        > .list-inline {
+            margin: 0;
+            padding: 0;
+
+            li {
+                &.active {
+                    background: linear-gradient(to right, #00BFC7, @light-blue);
+                }
+
+                &:first-child {
+                    border: 1px solid @light-blue;
+                    border-right: 0;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                }
+
+                &:last-child {
+                    border: 1px solid @light-blue;
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                }
+
+                a {
+                    display: block;
+                    height: 38px;
+                    width: 76px;
+
+                    span {
+                        .hide-text();
+                    }
+                }
+            }
+        }
+
+        #nav-map,
+        #nav-data {
+            a {
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+            }
+
+        }
+
+        #nav-map a {
+            background-image: url(/images/main-nav-map.png);
+        }
+
+        #nav-data a {
+            background-image: url(/images/main-nav-data.png);
+        }
+    }
+}
+
+.DateAndTime {
+    padding: 20px 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-transform: uppercase;
+    font-size: @font-size-large;
+    margin: 0 auto;
+    z-index: @zindex-header-main;
+
+    > .separator {
+        margin: 0 15px;
+    }
+
+    .Clock {
+        display: inline;
+    }
+}

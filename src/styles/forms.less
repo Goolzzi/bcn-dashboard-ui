@@ -1,0 +1,178 @@
+/**
+ * Forms
+ * @author: Joey Chakraborty
+ */
+
+ // Variables
+ @import "variables";
+
+.form-group, input-group {
+	input, select, textarea{
+		color: @white;
+		background-color: @form-field-background;
+		border-color: @form-field-border;
+		box-shadow: none;
+		border-radius: 3px;
+
+		&::placeholder {
+            color: #AFD3E6;
+            font-size: 12px;
+        }
+
+        &[disabled], &[readonly] {
+        	background-color: @form-field-background;
+        }
+	}
+
+
+	&.has-error .form-control {
+		border-color: #ff7800;
+	}
+
+	.help-block {
+		font-size: 10px;
+		text-align: right;
+		line-height: 14px;
+		color: #fff;
+		margin: 0;
+        text-transform: uppercase;
+	}
+}
+
+.form-control{
+    color: @white;
+    background-color: @form-field-background;
+    border-color: @form-field-border;
+}
+
+.input-group {
+
+    &.has-spinner {
+        position:relative;
+    }
+
+    .inputbox-spinner {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -10px;
+    }
+}
+
+.bc-form {
+	.form-group, input-group {
+        margin-bottom: 10px;
+    }
+
+    label {
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    input, textarea {
+        background-color: #081e2e;
+        border-color: #14273f;
+        border-radius: 3px;
+        box-shadow: none;
+        height: 40px;
+        font-family: 'Open Sans', serif;
+
+        &::placeholder {
+            color: #AFD3E6;
+            font-size: 12px;
+        }
+    }
+    textarea {
+        height:65px;
+    }
+
+    .has-error .form-control {
+        border-color: #ff7800;
+    }
+
+    .help-block {
+        font-size: 10px;
+        text-align: right;
+        line-height: 14px;
+        color: #fff;
+        margin: 0;
+    }
+
+    .info-text {
+        font-size: 20px;
+        color: #838b99;
+        line-height: 1;
+
+        label {
+            display: block;
+            font-size: 9px;
+        }
+
+        span {
+            display: block;
+        }
+        .white {
+            color: @white;
+        }
+    }
+
+    .slide-in-on-display {
+        transition: opacity 250ms ease-in;
+        opacity: 0.01;
+
+        &.show {
+          opacity: 1;
+        }
+
+    }
+}
+
+.input-form {
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    label {
+        color:#fff;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    input, textarea {
+        background-color: #081e2e;
+        border-color: #14273f;
+        border-radius: 3px;
+        box-shadow: none;
+        height: 40px;
+        font-family: 'Open Sans', serif;
+
+        &::placeholder {
+            color: #AFD3E6;
+            font-size: 12px;
+        }
+    }
+    textarea {
+        height:65px;
+    }
+
+    .has-error .form-control {
+        border-color: #ff7800;
+    }
+
+    .help-block {
+        font-size: 10px;
+        text-align: right;
+        line-height: 14px;
+        color: #fff;
+        margin: 0;
+    }
+
+    .SlideInOnShow {
+        transition: opacity 250ms ease-in;
+        opacity: 0.01;
+
+        &.show {
+          opacity: 1;
+        }
+    }
+}

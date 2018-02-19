@@ -1,0 +1,103 @@
+/**
+ * Profile Styles
+ * @author Jorge Barnaby
+ */
+
+.Profile {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 50%;
+    z-index: @zindex-header-main;
+
+    > .logo {
+        top: 5px;
+        position: absolute;
+    }
+
+    > .details {
+        margin-left: 50px;
+
+        .company-name {
+            font-size: ceil((@font-size-base * 1.10));
+        }
+
+        .user-data {
+            color: @link-color;
+
+            .role {
+
+            }
+
+            .name {
+                margin-right: 6px;
+            }
+
+            .user-menu-toggle {
+                font-size: 0.8em;
+                text-align: center;
+                transform: scale(1.5, 1.0);
+                width: 10px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .user-profile {
+        position: absolute;
+    }
+
+    .UserMenu {
+        display: inline-block;
+        background: #000;
+        border: 1px solid #4A4A4A;
+        margin-top: 10px;
+        position: absolute;
+        right: -22px;
+        width: 120px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                a {
+                    color: white;
+                    display: block;
+                    text-align: center;
+                    padding: 8px 10px;
+
+                    &:hover {
+                        color: #05b1da;
+                    }
+                }
+            }
+        }
+
+        .arrow-common {
+            width: 0;
+            height: 0;
+            position: absolute;
+            right: 16px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+        }
+
+        > .arrow-border {
+            .arrow-common();
+            top: -8px;
+            border-bottom: 8px solid #4A4A4A;
+        }
+
+        > .arrow {
+            .arrow-common();
+            top: -6px;
+            border-bottom: 8px solid #000;
+        }
+    }
+
+}

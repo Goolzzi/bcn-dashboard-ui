@@ -1,0 +1,106 @@
+/**
+ * EditableTable Styles
+ */
+.EditableTable {
+    height: 100%;
+    position: relative;
+
+    .table-header {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        right: 0;
+        height: 40px;
+
+        .no-hiddenscroll & {
+            padding-right: 17px;
+        }
+    }
+
+    .table-addItem-container {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 65px;
+
+        .no-hiddenscroll & {
+            padding-right: 17px;
+        }
+    }
+
+    .table-body {
+        overflow-y: scroll;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 140px;
+        bottom: 0;
+    }
+
+    .validation-error {
+        display: inline;
+        color: #FF7800;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .table-message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .table-element {
+        max-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .table-addItem {
+
+
+        td {
+            padding: 0px 5% 0px 0px;
+        }
+
+    }
+
+    table {
+        margin-bottom: 0px;
+        width: 100%;
+
+        thead {
+            tr {
+                th {
+                    color: @light-blue;
+                    border-bottom: 1px solid @light-blue;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    .table-element;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    border-bottom: none;
+                    border-top: none;
+                    &.date {
+                        word-spacing: 8px;
+                    }
+                    .table-element;
+
+                	input[type="text"] {
+                        font-size: 14px;
+                        padding: 5px 8px;
+            		}
+                }
+            }
+        }
+    }
+}

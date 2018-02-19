@@ -1,0 +1,6 @@
+{
+    "name": "FormTextInput",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./FormTextInput.js"
+}
